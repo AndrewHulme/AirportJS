@@ -17,7 +17,7 @@ describe('Airport', function(){
 
   describe('under normal conditions', function(){
     beforeEach(function(){
-      // spyOn(weather.isStormy).and.returnValue(false);
+      // spyOn(weather, 'isStormy').and.returnValue(false);
       weather.isStormy.and.returnValue(false);
     });
 
